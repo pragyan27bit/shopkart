@@ -1,0 +1,14 @@
+{
+  "name": "shopkart",
+  "version": "1.0.0",
+  "description": "ShopKart E-Commerce Full Stack Application",
+  "scripts": {
+    "seed": "cd backend && node seed.js",
+    "test": "cd backend && node test-api.js",
+    "backend": "cd backend && node index.js",
+    "frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build"
+  }
+}
